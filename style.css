@@ -1,0 +1,13 @@
+/* Make the body and html take up the full viewport */
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+/* Full-screen canvas */
+canvas {
+    display: block;         /* Remove any space below the canvas */
+    width: 100vw;           /* Set canvas width to 100% of the viewport width */
+    height: 100vh;          /* Set canvas height to 100% of the viewport height */
+}
